@@ -30,15 +30,17 @@ class HichemTest {
 
     @Test
     fun `Gratitude to hichem`(){
-        thanks(Hichem()).`for`("your goodwill")
+        Thanks(Hichem()).`for`("your goodwill")
             .and("our discussions")
             .and("our disagrees")
             .and("your paints")
+            .and("your joke")
+            .and("your strike to the point")
             .and("your patience")
-            .and("your music test")
+            .and("your kindness")
+            .and("your music taste")
+            .sahaa()
+            .sahaa()
     }
 
-    private fun thanks(hichem: Hichem): Thanks {
-        return Thanks()
-    }
 }
