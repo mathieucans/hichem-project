@@ -27,4 +27,18 @@ class HichemTest {
     fun `but unfortunately hichem prefer 🐁 instead of ⌨`(){
         assertThat(Hichem().useMouseToDevelop())
     }
+
+    @Test
+    fun `Gratitude to hichem`(){
+        thanks(Hichem()).`for`("your goodwill")
+            .and("our discussions")
+            .and("our disagrees")
+            .and("your paints")
+            .and("your patience")
+            .and("your music test")
+    }
+
+    private fun thanks(hichem: Hichem): Thanks {
+        return Thanks()
+    }
 }
